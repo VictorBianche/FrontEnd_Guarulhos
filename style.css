@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Montagu+Slab:wght@500;600&display=swap');
+
+
+
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+   background-color: #DA561A;
+}
+
+#titulo {
+    color: #170103;
+    text-align: center;
+    font-family: 'Lato', cursive;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 200;
+    background-color: #DA561A;
+    padding: 15px;
+
+}
+
+#resumo {
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+ul {
+    color: #DA561A;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    margin: 20px 0px;
+    background-color: rgba(211, 211, 211, 0.685);
+    
+}
+
+#corpo {
+    background-image: url("img/gru.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal_video {
+    text-align: center;
+}
+
+.sub {
+        color: #DA561A;
+        text-align: center;
+        font-family: 'Montagu Slab', serif;
+        font-size: 32px;
+        font-style: oblique;
+        font-weight: 200;
+        padding: 10px;
+        background-color: rgba(211, 211, 211, 0.685);
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
